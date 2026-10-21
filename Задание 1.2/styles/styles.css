@@ -5,3 +5,12 @@ h1 {
 .body {
 	background-color: gray;
 }
+
+.nav__login {
+	border: 2px solid black;
+}
+
+.nav__login-white {
+	color: black;
+	background-color: transparent;
+}
