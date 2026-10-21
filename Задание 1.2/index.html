@@ -3,10 +3,11 @@
     <head>
       <meta charset="UTF-8" />
       <title>Lenni Art</title>
+      <link rel="stylesheet" href="styles/styles.css">
     </head>
-    <body>
-      <header>
-        <nav>
+    <body class="body">
+      <header class="header">
+        <nav class="nav-menu">
           <div class="nav-container">
             <img class="nav-logo" src="logo.png" />
             <div class="main-menu">
@@ -24,49 +25,49 @@
                   <a class="menu-link" href="#contacts">Контакты</a>
                 </li>
               </ul>
-              <button>Войти</button>
+              <button class="btn-login">Войти</button>
             </div> 
           </div>
         </nav>
       </header>
       <main>
         <section>
-          <h1>АРТ-ПРОСТРАНСТВО</h1>
-          <div><img src="banner.png" alt="Banner" /></div>
-          <div>ДЛЯ ЛЮДЕЙ, ГОВОРЯЩИХ СЕРДЦЕМ И ДЕЛОМ</div>
-          <div>МЕСТО ДЛЯ НАСТОЯЩЕГО</div>
+          <h1 class="main-header">АРТ-ПРОСТРАНСТВО</h1>
+          <div class="main-banner"><img src="banner.png" alt="Banner" /></div>
+          <div class="main-moto">ДЛЯ ЛЮДЕЙ, ГОВОРЯЩИХ СЕРДЦЕМ И ДЕЛОМ</div>
+          <div class="main-moto">МЕСТО ДЛЯ НАСТОЯЩЕГО</div>
           <div>Я хочу:</div>
-          <div><button>Провести мероприятие</button><button>Стать арендатором</button></div>
+          <div><button class="btn-event">Провести мероприятие</button><button class="btn-rent">Стать арендатором</button></div>
         </section>
-        <section id="about">
-          <div>О НАС</div>
-          <div>ПРОЕКТ "Millennials"</div>
+        <section id="about" class="about-section">
+          <div class="about-moto">О НАС</div>
+          <div class="about-moto">ПРОЕКТ "Millennials"</div>
           <div>
             <img src="millennials1.png" alt="Millenials big image" />
             <img src="millennials2.png" alt="Millenials small image" />
-            <div>Мы предлагаем площади для вашего мероприятия</div>
+            <div class="about-moto-sub">Мы предлагаем площади для вашего мероприятия</div>
           </div>
           <div>
             <img src="millennials3.png" />
-            <button>Смотреть</button>
+            <button class="btn-about-view">Смотреть</button>
           </div>
         </section>
         <section id="events">
-          <div>МЕРОПРИЯТИЯ</div>
+          <div class="events-header">МЕРОПРИЯТИЯ</div>
           <div>
-            <article>
+            <article class="event">
               <img src="article1.png" alt="article 1"/>
               <div>
                 Собираемся и слушаем альбом Nirvana. Nirvana
               </div>
             </article>
-            <article>
+            <article class="event">
               <img src="article2.png" alt="article 2"/>
               <div>
                 Есть тема, нужно обсудить с HowStuffWorks.
               </div>
             </article>
-            <article>
+            <article class="event">
               <img src="article3.png" alt="article 3"/>
               <div>
                 Вечер | The best of Sade
@@ -75,9 +76,9 @@
           </div>
         </section>
         <section id="blog">
-          <div>БЛОГ</div>
+          <div class="blog-header">БЛОГ</div>
           <div>
-            <article>
+            <article class="blog-item">
               <div>
                 <img src="blog1.png" alt="blog 1"/>
               </div>
@@ -87,7 +88,7 @@
                 <button>Смотреть</button>
               </div>
             </article>
-            <article>
+            <article class="blog-item">
               <div>
                 <img src="blog2.png" alt="blog 2"/>
               </div>
@@ -97,7 +98,7 @@
                 <button>Смотреть</button>
               </div>
             </article>
-            <article>
+            <article class="blog-item">
               <div>
                 <img src="blog3.png" alt="blog 3"/>
               </div>
@@ -109,13 +110,14 @@
             </article>
           </div>
         </section>
-        <section id="contacts">
-          <div>
-            <ul>
+        <section id="contacts" class="contacts-container">
+          <div class="contacts col">
+            <ul class="contacts">
               <li>
                 Томск, Красноармейская 146
                 <br/>
                 <span>2 этаж</span>
+                <br/>
                 <span>оф. 206</span>
               </li>
               <li>
@@ -138,14 +140,14 @@
           <div>
             <img src="map.png" alt="Map" />
           </div>
-          <div>
+          <div class="moto">
             ПРОСТО ДЕЛАЙТЕ, ЧТО НРАВИТСЯ, А МЫ ВАМ ПОМОЖЕМ
           </div>
         </section>
       </main>
       <footer class="page-footer">
-        <div>
-          <div>
+        <div class="row-footer">
+          <div class="col-footer">
             <ul class="footer-menu">
               <li>Календарь мероприятий</li>
               <li>Провести мероприятия</li>
@@ -154,12 +156,12 @@
               <li>Контакты</li>
             </ul>
           </div>
-          <div>
+          <div class="col-footer">
             <div>Подпишись и будь в курсе</div>
             <div><input type="text"><button>Подпишись</button></div>
             <div><input type="checkbox">Согласен на обработку персональных данных</div>
           </div>
-          <div>
+          <div class="col-footer">
             <div>
               <span>Millennials 2025</span>
               <span>Политика конфиденциальности</span>
