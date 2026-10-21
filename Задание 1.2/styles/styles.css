@@ -10,7 +10,15 @@ h1 {
 	border: 2px solid black;
 }
 
+.nav__login:hover {
+	background-color: aqua;
+}
+
 .nav__login-white {
 	color: black;
 	background-color: transparent;
+}
+
+.main__btn--red {
+	background-color: red;
 }
